@@ -68,6 +68,9 @@ export default function Header() {
             </button>
           </Link>
         </nav>
+
+        {/* Menu Mobile - Apparition sur mobile uniquement */}
+        <MobileMenu />
       </div>
     </header>
   );
